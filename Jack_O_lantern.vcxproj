@@ -112,19 +112,23 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="source\jack_o_lantern.cpp" />
     <ClCompile Include="source\lantern\video\D3D9Texture.cpp" />
     <ClCompile Include="source\spaghetti\os\Printer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\lantern\DeviceCreationParameters.hxx" />
+    <ClInclude Include="include\lantern\jack_o_lantern.hxx" />
     <ClInclude Include="include\lantern\core\dimension2d.hxx" />
     <ClInclude Include="include\lantern\core\matrix4.hxx" />
     <ClInclude Include="include\lantern\core\position2d.hxx" />
     <ClInclude Include="include\lantern\core\rect.hxx" />
+    <ClInclude Include="include\lantern\IDevice.hxx" />
     <ClInclude Include="include\lantern\geom\dimension2d.hxx" />
     <ClInclude Include="include\lantern\geom\matrix4.hxx" />
     <ClInclude Include="include\lantern\geom\position2d.hxx" />
     <ClInclude Include="include\lantern\geom\rect.hxx" />
-    <ClInclude Include="include\lantern\jack_o_lantern_compile_config.h" />
+    <ClInclude Include="include\lantern\jack_o_lantern_compile_config.hxx" />
     <ClInclude Include="include\lantern\scene\IMeshBuffer.hxx" />
     <ClInclude Include="include\lantern\video\AbstractVideoDriver.hxx" />
     <ClInclude Include="include\lantern\video\color.hxx" />
@@ -139,6 +143,7 @@
     <ClInclude Include="include\lantern\video\Material.hxx" />
     <ClInclude Include="include\lantern\video\MaterialRenderer.hxx" />
     <ClInclude Include="include\lantern\video\VideoDriverFeature.hxx" />
+    <ClInclude Include="include\spaghetti\ILogger.hxx" />
     <ClInclude Include="include\spaghetti\io\path.hxx" />
     <ClInclude Include="include\spaghetti\memory.hxx" />
     <ClInclude Include="include\spaghetti\os\Printer.hxx" />

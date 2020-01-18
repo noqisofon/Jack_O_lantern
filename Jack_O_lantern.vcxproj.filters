@@ -21,15 +21,15 @@
     <ClCompile Include="source\spaghetti\os\Printer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="source\jack_o_lantern.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\spaghetti\memory.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\spaghetti\os\Printer.hxx">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\lantern\jack_o_lantern_compile_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\lantern\video\IVideoDriver.hxx">
@@ -102,6 +102,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\lantern\video\Material.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lantern\IDevice.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spaghetti\ILogger.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lantern\jack_o_lantern.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lantern\jack_o_lantern_compile_config.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lantern\DeviceCreationParameters.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

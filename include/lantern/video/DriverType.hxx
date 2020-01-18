@@ -6,7 +6,7 @@ namespace lantern {
          *
          */
         enum class DriverType {
-            NULL,
+            UNKNOWN,
             SOFTWARE,
             BURNINGSVIDEO,
             DIRECT3D8,
