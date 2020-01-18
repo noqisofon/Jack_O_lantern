@@ -1,0 +1,38 @@
+# -*- mode: gitignore; coding: utf-8; -*-
+
+# Emacs working files
+\#*#
+
+# Emacs temporary files
+*~
+
+# Build result directory
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio configuration directory
+.vs/
+
+# Visual Studio user file
+*.user
+
+# Make files
+Makefile
+
+# Object files
+*.o
+*.obj
+
+# CMake cache files
+CMakeCache.txt
+
+# CMake install script
+cmake_install.cmake
+
+# CMake working directory
+CMakeFiles/
+
+# Doxygen generated directory
+document/

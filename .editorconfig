@@ -1,0 +1,12 @@
+[*]
+end_of_line = crlf
+charset =  utf-8
+
+[*.xml]
+indent_style = space
+
+[*.hxx]
+indent_style = space
+
+[*.cpp]
+indent_style = space
